@@ -1,0 +1,109 @@
+.app-container {
+  display: flex;
+  padding: 20px;
+}
+.my-movie-container {
+  width: 70%;
+  padding: 20px;
+  border: 1px solid #000000;
+}
+.form-container {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #000000;
+}
+.form-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+.form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.input {
+  border: 2px solid #87ceeb;
+  height: 26px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.input-des {
+  border: 2px solid #87ceeb;
+  height: 52px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.file-label {
+  text-align: center;
+}
+.lang {
+  margin-right: 30px;
+}
+.button {
+  background-color: #3b71ca;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  border-style: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-left: 20px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+.rate {
+  margin-right: 20px;
+}
+
+.lang-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.title-rating-container {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.movies-list {
+  list-style-type: none;
+}
+.title-img-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.title-section {
+  display: flex;
+}
+.image {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
+.title-name {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+.activate {
+  background-color: #f3aa4e;
+}
+.not-activate {
+  background-color: transparent;
+}
