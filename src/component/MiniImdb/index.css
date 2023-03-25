@@ -71,7 +71,6 @@
 .lang-list {
   list-style-type: none;
   display: flex;
-  justify-content: space-evenly;
 }
 .title-rating-container {
   padding: 30px;
@@ -101,9 +100,30 @@
   font-size: 20px;
   font-weight: 600;
 }
-.activate {
-  background-color: #f3aa4e;
-}
-.not-activate {
+
+.tab-button {
+  color: #2563eb;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #dfe2e5;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 15px;
   background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.active {
+  color: #7b8794;
+  border: 2px solid #dfe2e5;
+  border-bottom: none;
+  padding-bottom: 8px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }

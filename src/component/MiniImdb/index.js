@@ -147,7 +147,7 @@ class MiniImdb extends Component {
           <ul className="lang-list">
             {tagsList.map(each => {
               const active = activeTag === each.optionId
-              const isActive = active ? 'activate' : 'not-activate'
+              const isActive = active ? 'tab-button active' : 'tab-button'
               return (
                 <li key={each.optionId}>
                   <button
